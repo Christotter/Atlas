@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country page</title>
+</head>
+<body>
+  <!-- Link to go back to the main page -->
+  <p><a href="/welcome">Go back</a></p>
+  <!-- Form with country's data fields -->
+  <form action="/modify_country" method="post">
+    <label for="cname">Country name:</label>
+    <input type="text" value="$$cname$$" id="cname" name="cname" /><br>
+    <label for="continent">Continent:</label>
+    <input type="text" value="$$continent$$" id="continent" name="continent" /><br>
+    <label for="capital">Capital:</label>
+    <input type="text" value="$$capital$$" id="capital" name="capital" /><br>
+    <label for="population">Population:</label>
+    <input type="text" value="$$population$$" id="population" name="population" /><br>
+    <label for="size">Size (in km2):</label>
+    <input type="text" value="$$size$$" id="size" name="size" /><br>
+    <!-- Submit button -->
+    <input type="submit" value="Submit" id="addButton">
+  </form>
+</body>
+</html>

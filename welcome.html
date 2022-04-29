@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="static/style.css">
+  <title>Atlas Homepage</title>
+</head>
+<body>
+  <div class="content">
+    <h1><p class="paragraph">Atlas</p></h1>
+    <br>
+    <!-- Paragraph with a changing welcome message -->
+    <h2><p class="paragraph" id="welcomeMsg">Welcome !</p></h2>
+    <!-- Log out button -->
+    <a href="/"><button>Log out</button></a>
+    <br>
+    <br>
+    <!-- Homepage picture -->
+    <img src="static/map.jpg" alt="Map" height="200" id="map">
+    <!-- Menu  -->
+    <div class="menu">
+      <p><a href="/all_countries">Countries list</a></p>
+      <p><a href="/add_country">Add a new country</a></p>
+      <p><a href="/modify_country">Modify a country</a></p>
+      <p><a href="/deleted_account" id="deleteLink" name="deleteLink">Delete your account</a></p>
+    </div>
+    <div class="time">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p class="time">Local time of your connection on the website</p>
+      <!-- Position where the $$TIME$$ is replaced by current time (Python) -->
+      <p class="time" id="switzerland">$$TIME$$</p>
+    </div>
+  </div>
+<!-- JavaScript file that will manage the username -->
+<script src="static/homepage.js"></script>
+</body>
+</html>
