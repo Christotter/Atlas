@@ -1,5 +1,4 @@
 # MY FINAL PROJECT
-A one or two sentence description of your project here.
 ATLAS - It allows the user to see the data about specific countries, create, modify and delete new countries.
 
 - What does it do?
@@ -7,10 +6,6 @@ ATLAS - It allows the user to see the data about specific countries, create, mod
 
 - What is the "new feature" which you have added that we haven't seen before?
   Creating class instances based on the user's input. Allowing the user to modify, display or delete those instances.
-
-## Prerequisites
-Did you add any additional modules that someone needs to install (for instance anything in Python that you `pip install-ed`)?
-List those here (if any).
 
 ## Project Checklist
 - [x] It is available on GitHub.
